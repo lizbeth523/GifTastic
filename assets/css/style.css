@@ -1,7 +1,67 @@
+body {
+	background-image: url("../images/greyzz_@2X.png");
+	padding: 1vw;
+}
+
+form {
+	float: right;
+	padding-right: 10px;
+	width: 20%;
+}
+
+h2, h3 {
+	color: rgb(7, 16, 63);
+}
+
+input, label {
+	display: block;
+	width: 100%;
+}
+
+label {
+	text-align: center;
+}
+
+.gif {
+	max-width: 100%;
+}
+
+.gif-div {
+	width: 80%;
+}
+
+.gif-div-individual {
+	display: inline-grid;
+	width: 33%;
+}
+
 .gif-finder-btn {
 	background-color: rgb(7, 16, 63);
 	color: rgb(225, 239, 239);
 	font-size: 1.5em;
-	margin: 1vw;
+	margin-bottom: 10px;
+	margin-right: 10px;
 	padding: 10px;
+}
+
+#add-activity {
+	background-color: rgb(7, 16, 63);
+	color: rgb(225, 239, 239);
+	font-size: 1.5em;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+@media screen and (max-width: 980px) {
+	form {
+		width: 33%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	form {
+		float: none;
+		margin: auto;
+		width: 80%;
+	}
 }

@@ -5,12 +5,21 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GifTastic Gif Finder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 	<div id="button-div"></div>
 
-	<div id="gif-div-all"></div>
+	<form id="add-activity-form">
+		<label for="add-activity-form">
+			<h2>Add an Activity</h2>
+		</label>
+		<input type="text" id="activity-input">
+		<input type="submit" id="add-activity" value="Submit">
+	</form>
+
+	<div id="gif-div"></div>
 
 	<script
 		src="https://code.jquery.com/jquery-3.2.1.min.js"
