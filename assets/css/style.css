@@ -3,6 +3,12 @@ body {
 	padding: 1vw;
 }
 
+button:hover {
+	background: rgba(0,0,0,0);
+	box-shadow: inset 0 0 0 3px rgb(7, 16, 63);
+	color: rgb(7, 16, 63);
+}
+
 form {
 	float: right;
 	padding-right: 10px;
@@ -50,6 +56,11 @@ label {
 	font-size: 1.5em;
 	margin-top: 10px;
 	padding: 10px;
+}
+
+#add-activity:hover {
+	font-size: 1.6em;
+	font-weight: bold;
 }
 
 @media screen and (max-width: 980px) {
