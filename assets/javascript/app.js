@@ -15,6 +15,7 @@ $(document).ready (function() {
     $("#add-activity").on("click", function() {
         event.preventDefault();
         topic = $("#activity-input").val().trim();
+        $("#activity-input").val("");
         topics.push(topic);
         renderButtons();
     });
